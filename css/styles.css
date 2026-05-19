@@ -478,10 +478,15 @@ main {
 .news-card p,
 .contact-card p,
 .info-card p,
-.legal-card p,
+.news-card p,
 .timeline-item p,
 .footer-note {
   color: var(--muted);
+}
+
+.contact-card a {
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 .section {
